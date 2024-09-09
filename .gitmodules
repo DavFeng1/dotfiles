@@ -1,7 +1,3 @@
 [submodule "nvim"]
   path = "nvim"
   url = https://github.com/DavFeng1/nvim.git
-
-[submodule "zsh"]
-  path = "zsh"
-  url = https://github.com/DavFeng1/zsh.git
