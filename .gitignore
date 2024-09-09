@@ -1,1 +1,4 @@
 .DS_STORE
+wslu/*
+systemd/*
+gh/hosts.yml
