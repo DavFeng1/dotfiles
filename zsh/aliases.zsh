@@ -17,6 +17,7 @@ alias vimdir="cd ~/.config/nvim"
 alias zshdir="cd ~/.config/zsh"
 alias starshipdir="cd ~/.config/starship"
 alias neofetchdir="cd ~/.config/neofetch"
+alias cfg="cd ~/.config"
 
 if uname | grep -q "Darwin" ; then
   alias fpdir="cd ~/Documents/first-principles/"
