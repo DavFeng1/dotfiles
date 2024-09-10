@@ -9,14 +9,13 @@ alias zshroot="v ~/.zshrc"
 alias zshrc="v ~/.config/zsh/.zshrc"
 alias starshiprc="v ~/.config/starship/starship.toml"
 alias vimrc="v ~/.config/nvim/init.vim"
-alias neofetchrc="v ~/.config/neofetch/config.conf"
+alias aerospacerc="v ~/.config/aerospace/aerospace.toml"
 alias fdignore="v ~/.config/fd/ignore/.fdignore"
 
 # Goto config
 alias vimdir="cd ~/.config/nvim"
 alias zshdir="cd ~/.config/zsh"
 alias starshipdir="cd ~/.config/starship"
-alias neofetchdir="cd ~/.config/neofetch"
 alias cfg="cd ~/.config"
 
 if uname | grep -q "Darwin" ; then
