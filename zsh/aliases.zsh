@@ -18,7 +18,7 @@ alias zshdir="cd ~/.config/zsh"
 alias starshipdir="cd ~/.config/starship"
 alias neofetchdir="cd ~/.config/neofetch"
 
-if uname -r | grep -q "Darwin" ; then
+if uname | grep -q "Darwin" ; then
   alias fpdir="cd ~/Documents/first-principles/"
   alias dadir="cd ~/Documents/data-analysis/"
   alias docs="cd ~/Documents"
