@@ -8,7 +8,7 @@ export XDG_CONFIG_HOME=~/.config/
 eval "$(starship init zsh)"
 
 # Initialize direnv
-# eval "$(direnv hook zsh)"
+eval "$(direnv hook zsh)"
 
 # Aliases
 source ~/.config/zsh/aliases.zsh
