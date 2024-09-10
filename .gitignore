@@ -3,3 +3,4 @@ wslu/*
 systemd/*
 gh/hosts.yml
 nvim
+turborepo

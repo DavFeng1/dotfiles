@@ -16,6 +16,7 @@ source ~/.config/zsh/aliases.zsh
 # Plugins
 source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # This will separate NPM & NVM between x86 and arm64, to avoid mixing package and dependency architectures (recipe for disaster)
 export npm_config_cache="$HOME/.npm/$(arch)"
