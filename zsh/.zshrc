@@ -44,4 +44,7 @@ eval "$(pyenv init -)"
 # postgres
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 
+# rabbitmq
+export PATH="$PATH:/opt/homebrew/sbin/"
+
 export PATH="$HOME/.elan/bin:$PATH"
