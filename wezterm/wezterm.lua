@@ -1,6 +1,5 @@
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
-
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
@@ -8,6 +7,8 @@ local config = wezterm.config_builder()
 
 -- For example, changing the color scheme:
 config.color_scheme = 'Gruvbox Dark (Gogh)'
+config.window_decorations = "NONE"
+
 
 config.keys = {
   {
