@@ -7,7 +7,7 @@ local config = wezterm.config_builder()
 
 -- For example, changing the color scheme:
 config.color_scheme = 'Gruvbox dark, hard (base16)'
-config.window_decorations = "NONE"
+config.window_decorations = "RESIZE"
 
 
 config.keys = {
@@ -17,6 +17,12 @@ config.keys = {
     action = wezterm.action.ReloadConfiguration,
   },
 }
+
+config.colors = {
+  background = "#201f1f"
+}
+
+config.font_size = 18
 
 -- and finally, return the configuration to wezterm
 return config
