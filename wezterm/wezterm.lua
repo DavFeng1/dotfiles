@@ -26,6 +26,7 @@ config.colors = {
 
 config.font_size = 18
 config.use_fancy_tab_bar = false
+config.line_height = 1.1
 
 -- and finally, return the configuration to wezterm
 return config
