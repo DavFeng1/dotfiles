@@ -55,6 +55,16 @@ function colors_for_appearance(appearance)
         '#59839a',
         '#aaaaaa',
       },
+      brights = {
+        "#838f9e",
+        "#bc3f38",
+        "#5fa753",
+        "#c49945",
+        "#4578e9",
+        "#906ad5",
+        "#6ca8ce",
+        "#fefefe"
+      }
     }
   end
 end
