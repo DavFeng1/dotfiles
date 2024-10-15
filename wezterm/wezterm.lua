@@ -1,5 +1,9 @@
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
+
+-- TODO: cannot find file
+-- local quietLight = wezterm.color.load_scheme("colors/quiet_light.toml")
+
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
@@ -32,8 +36,24 @@ function colors_for_appearance(appearance)
   else
     return {
       background = "#f5f5f5",
+      foreground = "#724197",
+      cursor_fg = '#6b5792',
+      cursor_bg = '#8b8198',
+      cursor_border = '#8b8198',
+      selection_bg = '#e3f6d4',
+      selection_fg = '#724197',
       tab_bar = {
         background = "#f5f5f5"
+      },
+      ansi = {
+        '#323232',
+        '#9d3f36',
+        '#568a37',
+        '#935f32',
+        '#5168bf',
+        '#6b5792',
+        '#59839a',
+        '#aaaaaa',
       },
     }
   end
@@ -51,7 +71,6 @@ config.keys = {
     action = wezterm.action.ReloadConfiguration,
   },
 }
-
 
 config.font_size = 18
 config.use_fancy_tab_bar = false
