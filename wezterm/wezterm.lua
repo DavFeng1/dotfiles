@@ -43,7 +43,19 @@ function colors_for_appearance(appearance)
       selection_bg = '#e3f6d4',
       selection_fg = '#724197',
       tab_bar = {
-        background = "#f5f5f5"
+        background = "#c4b7d8",
+        active_tab = {
+          bg_color = "#724197",
+          fg_color = "#f5f5f5"
+        },
+        inactive_tab = {
+          bg_color = "#d6cfe2",
+          fg_color = "#323232"
+        },
+        new_tab = {
+          bg_color = "#c4b7d8",
+          fg_color = "#323232"
+        },
       },
       ansi = {
         '#323232',
