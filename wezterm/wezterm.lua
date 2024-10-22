@@ -92,6 +92,8 @@ config.keys = {
     mods = 'CMD|SHIFT',
     action = wezterm.action.ReloadConfiguration,
   },
+  { key = 'k', mods = 'SHIFT', action = wezterm.action.ScrollByLine(-1) },
+  { key = 'j', mods = 'SHIFT', action = wezterm.action.ScrollByLine(1) },
 }
 
 config.font_size = 18
