@@ -3,6 +3,8 @@ export PATH=/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/bin:$PATH
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export KUBECONFIG_DIR=~/.config/kubernetes/
 export XDG_CONFIG_HOME=~/.config/
+export PGUSER=feng
+export PGDATABASE=main
 
 # Initialize starship
 eval "$(starship init zsh)"
