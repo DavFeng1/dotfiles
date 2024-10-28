@@ -1,6 +1,7 @@
 # Aliases
 
 alias v="nvim"
+alias nv="neovide --frame transparent"
 alias g="git"
 alias aliases="v ~/.config/zsh/aliases.zsh"
 
@@ -15,6 +16,7 @@ alias fdignore="v ~/.config/fd/ignore/.fdignore"
 # Goto config
 alias vimdir="cd ~/.config/nvim"
 alias wezdir="cd ~/.config/wezterm"
+alias nvdir="cd ~/.config/neovide"
 alias zshdir="cd ~/.config/zsh"
 alias starshipdir="cd ~/.config/starship"
 alias cfg="cd ~/.config"
