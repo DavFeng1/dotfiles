@@ -100,6 +100,12 @@ config.font_size = 18
 config.use_fancy_tab_bar = false
 config.line_height = 1.1
 config.tab_bar_at_bottom = true
+config.window_padding = {
+  top = 0,
+  bottom = 0,
+  right = 0,
+  left = 0
+}
 
 -- and finally, return the configuration to wezterm
 return config
