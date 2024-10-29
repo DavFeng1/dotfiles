@@ -99,6 +99,7 @@ config.keys = {
 config.font_size = 18
 config.use_fancy_tab_bar = false
 config.line_height = 1.1
+config.tab_bar_at_bottom = true
 
 -- and finally, return the configuration to wezterm
 return config
