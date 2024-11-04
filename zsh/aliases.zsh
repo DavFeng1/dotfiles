@@ -1,9 +1,11 @@
 # Aliases
 
 alias v="nvim"
-alias nv="neovide --frame transparent"
+alias nv="neovide --frame transparent --fork"
 alias g="git"
 alias grm="g fetch && g reset --hard origin/main"
+alias gp="g push"
+alias gpf="g push --force"
 alias aliases="v ~/.config/zsh/aliases.zsh"
 
 # Open config
