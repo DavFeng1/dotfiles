@@ -117,7 +117,14 @@ config.window_padding = {
   left = 0
 }
 
-config.default_domain = "WSL:Ubuntu"
+local function get_default_domain()
+  if wezterm.target_triple:match("darwin") or wezterm.target_triple:match("linux") then
+    return nil
+  else
+    return "WSL:Ubuntu"
+  end
+end
+config.default_domain = get_default_domain()
 
 -- and finally, return the configuration to wezterm
 return config
