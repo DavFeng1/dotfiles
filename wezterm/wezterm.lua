@@ -17,6 +17,14 @@ function get_appearance()
   return 'Dark'
 end
 
+local function get_window_decorations()
+  if wezterm.target_triple:match("darwin") or wezterm.target_triple:match("linux") then
+    return "RESIZE"
+  else
+    return "RESIZE | TITLE"
+  end
+end
+
 function scheme_for_appearance(appearance)
   if appearance:find 'Dark' then
     return 'Gruvbox dark, hard (base16)'
@@ -85,7 +93,9 @@ local appearance = get_appearance()
 config.colors = colors_for_appearance(appearance)
 config.color_scheme = scheme_for_appearance(appearance)
 
-config.window_decorations = "RESIZE"
+
+config.window_decorations = get_window_decorations()
+
 config.keys = {
   {
     key = 'r',
@@ -106,6 +116,8 @@ config.window_padding = {
   right = 0,
   left = 0
 }
+
+config.default_domain = "WSL:Ubuntu"
 
 -- and finally, return the configuration to wezterm
 return config
