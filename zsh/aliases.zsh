@@ -6,6 +6,7 @@ alias g="git"
 alias grm="g fetch && g reset --hard origin/main"
 alias gp="g push"
 alias gpf="g push --force"
+alias gcm="g checkout main"
 alias aliases="v ~/.config/zsh/aliases.zsh"
 
 # Open config
