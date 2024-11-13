@@ -107,6 +107,7 @@ config.keys = {
 }
 
 config.font_size = 18
+config.font = wezterm.font "JetBrainsMono Nerd Font"
 config.use_fancy_tab_bar = false
 config.line_height = 1.1
 config.tab_bar_at_bottom = true
