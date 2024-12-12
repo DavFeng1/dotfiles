@@ -9,9 +9,6 @@ export PGDATABASE=main
 # Initialize starship
 eval "$(starship init zsh)"
 
-# Initialize direnv
-eval "$(direnv hook zsh)"
-
 # Aliases
 source ~/.config/zsh/aliases.zsh
 
