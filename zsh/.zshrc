@@ -5,6 +5,7 @@ export KUBECONFIG_DIR=~/.config/kubernetes/
 export XDG_CONFIG_HOME=~/.config/
 export PGUSER=feng
 export PGDATABASE=main
+export HOMEBREW_BUNDLE_FILE=~/.config/brew/Brewfile
 
 # Initialize starship
 eval "$(starship init zsh)"
